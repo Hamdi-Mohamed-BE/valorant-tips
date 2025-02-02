@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "Valorant Lineups",
-    "slug": "valorant-lineups",
+    "owner": "hama.gn",
+    "name": "Valorant tpis",
+    "slug": "valorant-tpis",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashscreen_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#0F1923"
     },
@@ -19,15 +20,20 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/val.png",
         "backgroundColor": "#0F1923"
       },
-      "package": "com.hamdibouabdallah.valorantlineups",
+      "package": "com.hamagn.valoranttpis",
       "versionCode": 1,
       "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d7220946-46e8-4546-8863-a71ab0dc7ae9"
+      }
     }
   }
 }
