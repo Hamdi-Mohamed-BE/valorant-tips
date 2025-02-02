@@ -10,6 +10,7 @@ module.exports = {
     },
     extra: {
       YOUTUBE_API_KEY: process.env.EXPO_PUBLIC_YOUTUBE_API_KEY,
+      NODE_ENV: process.env.NODE_ENV,
       eas: {
         projectId: 'd7220946-46e8-4546-8863-a71ab0dc7ae9'
       },
